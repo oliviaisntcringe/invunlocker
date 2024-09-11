@@ -3,11 +3,11 @@ Inventory Unlocker
 It's nothing new but it's following functions (SDK):
 
 Code:
-Function ShooterGame.ContentLibrary.ApplySkin @ game+0x2c7a550
+***Function ShooterGame.ContentLibrary.ApplySkin @ game+0x2c7a550
  
 // other stuff
 ShooterGame.ShooterCharacter.GetInventory
-ShooterGame.AresInventory.GetCurrentEquippable
+ShooterGame.AresInventory.GetCurrentEquippable***
 And for clearing the weapon components on the gun (before apply):
 Code:
 Function ShooterGame.ContentLibrary.ClearWeaponComponents // @ game+0x2c7a720
